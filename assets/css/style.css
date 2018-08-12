@@ -1,0 +1,54 @@
+body, html {
+    height: 100%;
+}
+
+.intro {
+    /* Full height */
+    min-height: 100%;
+
+    /* The image used */
+    background-image: url("../images/image.jpg");
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+
+    padding-top: 440px;
+}
+
+#names {
+    font-family: 'Ranga', cursive;
+    font-size: 100px;
+}
+
+hr{
+    height: 1px;
+	width: 400px;
+	background-color:white;
+	color:white;
+	border: 0 none;
+}
+.info{
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Navbar CSS */
+.nav-pills {
+    background-color: rgb(184, 184, 184);
+}
+
+a {
+    color:white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: rgb(27, 27, 95) !important;
+}
+
+.section2 {
+    padding-top: 70px;
+}
