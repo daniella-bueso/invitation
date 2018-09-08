@@ -38,7 +38,7 @@ hr{
 
 /* Navbar CSS */
 .nav-pills {
-    background-color: rgb(184, 184, 184);
+    background-color: rgb(255, 147, 165);
 }
 
 a {
@@ -47,7 +47,7 @@ a {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    background-color: rgb(255, 147, 165) !important;
+    color: black!important;
 }
 
 .section2 {
@@ -74,6 +74,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
+    width: 200px;
     font-family: 'Raleway', sans-serif;
 }
 .invited {
@@ -123,6 +124,8 @@ a {
 
 #btn-rsvp {
     font-family: 'Raleway', sans-serif;
+    background-color: rgb(255, 147, 165);
+    border-style: none;
 }
 
 p {
